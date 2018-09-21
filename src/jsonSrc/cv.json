@@ -1,0 +1,47 @@
+{
+    "name": "Max Bolotnyi",
+    "position": "Front end developer (junior)",
+    "contacts": [],
+     "linkedIn": "https://www.linkedin.com/in/max-bolotnyi",
+     "faceBook": "https://www.facebook.com/max100796",
+     "github": "https://github.com/MaxBolotnyi",
+    
+    "About me": "I sparked my interest in programming as a hobby a year ago while working in IT industry as a 3d artist. Since that I have found myself in love with coding and I decided to take it seriously and get a job.    Today I`m studying front-end fulltime. I`d like to get a junior position, I love working in a team. Real projects would boost my learning curve and I`d do my best at the company.   I have ~0.5 year of experience with JS and front-end tech (and I did Java and C++ courses prior to that). I am good at core JS + html/CSS  + currently learning React.",
+    "Technical skills": [
+        "HTML",
+        "CSS, SASS + gulp/grunt",
+        "Bootstrap",
+        "strong JS (ES5 and ES6)",
+        "React.js",
+        "git, github/gitlab",
+        "JIRA + confluence",
+        "WebWorkers, WebSockets"
+  ],
+    "english": "Advanced / C1 ",
+    "Previous work experience": [
+      {
+          "period":"march `18 .. june `18",
+          "name": "Wargaming/Persha Studia",
+          "href": "https://www.linkedin.com/company/wargaming-net/",
+          "position":"3d artist"
+      },
+      {
+        "period":"march `12 .. march `18",
+        "name": "Samsung Ukraine R&D Center",
+        "href": "https://www.samsung.com/ua/aboutsamsung/careers/srk/",
+        "position":"3d artist"
+    },
+    {
+        "period":"nov `10 .. dec `11",
+        "name": "LLC Maxwellogic",
+        "href": null,
+        "position":"3d artist"
+    }
+  ],
+    "Education": "2003 - 2009 NTUU Kiev Polytechnic University - Specialist degree",
+     "Courses":[
+        "2018 .. present - DITS school full stack course",
+        "online learning at Udemy, lynda.com etc."
+  ],
+     "Background": "I`m happily married and have a son."
+}

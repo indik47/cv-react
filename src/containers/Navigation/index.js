@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styles from './styles.css'
 import { Link } from 'react-router-dom'
+import MyPhoto from '../../assets/myphoto.jpg';
 // import CSSModules from 'react-css-modules';
 
 class Navigation extends Component {
@@ -8,9 +9,11 @@ class Navigation extends Component {
         return (
             <div className={styles.navWrapper}>
                 <div className={styles.inner}>
-                    <Link to="/">Profile</Link>
-                    <Link to="/exp">Experiences</Link>
+                    <Link to="/"><img src={MyPhoto} alt="my avatar" className={styles.avatar} /></Link>
+                    <Link to="/work">Work</Link>
+                    <Link to="/education">Education</Link>
                     <Link to="/skills">Skills</Link>
+                    <Link to="/languages">Languages</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contacts">Contacts</Link>
                 </div>
