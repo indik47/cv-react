@@ -43,7 +43,10 @@
         "position":"3d artist"
     }
   ],
-    "Education": "2003 - 2009 NTUU Kiev Polytechnic University - Specialist degree",
+    "Education":[
+        "2013 - 2017 NTUU Kiev Polytechnic University - Specialist degree",
+        "2013 - 2017 NTUU Kiev Polytechnic University - Specialist degree"
+    ] ,
      "Courses":[
         "2018 .. present - DITS school full stack course",
         "online learning at Udemy, lynda.com etc."
