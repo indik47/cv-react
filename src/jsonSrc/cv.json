@@ -44,8 +44,16 @@
     }
   ],
     "Education":[
-        "2013 - 2017 NTUU Kiev Polytechnic University - Specialist degree",
-        "2013 - 2017 NTUU Kiev Polytechnic University - Specialist degree"
+        {
+            "dates": "2013 - 2017",
+            "university":"ZNTU Zaporizhzhya National Technical University - Bachelour degree",
+            "specialization":"Engineer of Telecommunicatons" 
+        },
+        {
+            "dates": "2017 - 2019",
+            "university":"ZNTU Zaporizhzhya National Technical University - Master degree",
+            "specialization":"Engineer of Telecommunicatons" 
+        }
     ] ,
      "Courses":[
         "2018 .. present - DITS school full stack course",
