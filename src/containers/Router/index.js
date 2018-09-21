@@ -18,7 +18,7 @@ class Router extends Component {
             <Route exact path = "/exp" component={Work}/>
             <Route exact path = "/Education" component={Education}/>
             <Route exact path = "/skills" component={Skills}/>
-            <Route exact path = "/langueages" component={Languages}/>
+            <Route exact path = "/languages" component={Languages}/>
             <Route exact path = "/projects" component={Projects}/>
             <Route exact path = "/contacts" component={Contacts}/>
         </Switch>

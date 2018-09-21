@@ -17,7 +17,12 @@
         "JIRA + confluence",
         "WebWorkers, WebSockets"
   ],
-    "english": "Advanced / C1 ",
+    "languages": {
+        "english": "Advanced / C1 ",
+        "russian": "Native ",
+        "ukrainian": "Native",
+        "deutsch": "Pre-Intermidiate"
+    },
     "Previous work experience": [
       {
           "period":"march `18 .. june `18",
