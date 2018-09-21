@@ -1,10 +1,9 @@
-import React from 'react'
-import userData from '../../jsonSrc/cv.json';
-
+import React from 'react';
 
 class Profile extends React.Component {
     
     render() {
+        const { userData } = this.props;
         return (
               <React.Fragment>
                 <div className="content-container">
@@ -16,6 +15,13 @@ class Profile extends React.Component {
                     <div>{userData.position}</div>
                     <div>"{userData["About me"]}"</div>
                 </div>
+                {
+                    userData["Technical skills"].map( (item, index) => {
+                        return (
+                            <div key={index}> {item} </div>
+                        )
+                    })
+                }
             </React.Fragment>
         )
     }

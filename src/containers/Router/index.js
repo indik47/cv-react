@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import {Switch, Route} from 'react-router-dom'
 import Profile from "../../pages/Profile";
 import Work from "../../pages/Work";
@@ -9,18 +8,21 @@ import Languages from "../../pages/Languages";
 import Projects from "../../pages/Projects";
 import Contacts from "../../pages/Contacts";
 
+import userData from '../../jsonSrc/cv.json';
+
+
 
 class Router extends Component {
   render() {
     return (
         <Switch>
-            <Route exact path = "/" component={Profile}/>
-            <Route exact path = "/exp" component={Work}/>
-            <Route exact path = "/Education" component={Education}/>
-            <Route exact path = "/skills" component={Skills}/>
-            <Route exact path = "/languages" component={Languages}/>
-            <Route exact path = "/projects" component={Projects}/>
-            <Route exact path = "/contacts" component={Contacts}/>
+            <Route exact path = "/" render={(props) => <Profile {...props} userData={userData}/>}/>
+            <Route exact path = "/work" render={(props) => <Work {...props} jobs={userData.jobs}/>}/>
+            <Route exact path = "/education" render={(props) => <Education {...props} educations={userData.Education}/>}/>
+            <Route exact path = "/skills" render={(props) => <Skills {...props} skills={userData["Technical skills"]}/>}/>
+            <Route exact path = "/languages" render={(props) => <Languages {...props} languages ={userData.languages}/>} />
+            <Route exact path = "/projects" render={(props) => <Projects {...props}  />}/>
+            <Route exact path = "/contacts" render={(props) => <Contacts {...props} contacts={userData.contacts}/>}/>
         </Switch>
     );
   }
