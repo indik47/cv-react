@@ -9,10 +9,10 @@ class Navigation extends Component {
             <div className={styles.navWrapper}>
                 <div className={styles.inner}>
                     <Link to="/">Profile</Link>
-                    <Link to="/exp">Experience</Link>
-                    {/* <Link to="/projects">Abilities</Link>
+                    <Link to="/exp">Experiences</Link>
+                    <Link to="/skills">Skills</Link>
                     <Link to="/projects">Projects</Link>
-                    <Link to="/contacts">Contacts</Link> */}
+                    <Link to="/contacts">Contacts</Link>
                 </div>
             </div>
         )
@@ -20,4 +20,4 @@ class Navigation extends Component {
 }
 
 // export default CSSModules(Navigation, styles)
-export default Navigation
+export default Navigation;
