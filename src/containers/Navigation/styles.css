@@ -1,0 +1,12 @@
+.navWrapper {
+    border: 1px solid rebeccapurple;
+    color: blue;
+    width: 20%;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
