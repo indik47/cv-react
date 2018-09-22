@@ -9,7 +9,7 @@ class Navigation extends Component {
         return (
             <div className={styles.navWrapper}>
                 <div className={styles.inner}>
-                    <Link to="/"><img src={MyPhoto} alt="my avatar" className={styles.avatar} /></Link>
+                    <Link to="/"><img className={styles.inner__avatar} src={MyPhoto} alt="my avatar" /></Link>
                     <Link to="/work">Work</Link>
                     <Link to="/education">Education</Link>
                     <Link to="/skills">Skills</Link>
