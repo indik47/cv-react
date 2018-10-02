@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
+    box-sizing: content-box;
     --main-text-color: rgb(66, 66, 66);
     --secondary-text-color: rgb(103, 103, 103);
     --tetriary-text-color: rgb(255, 255, 255);
@@ -27,7 +27,7 @@
     align-items: start;
 }
 
-.innerColumn img{
+.avatar{
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -52,6 +52,13 @@
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
+}
+
+.social--icon {
+    font-size: 12px;
+    line-height: 12px;
+    width: 30px;
+    height: 30px;
 }
 
 .innerColumn .social > div {
@@ -145,13 +152,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 
-.contacts button {
+.contacts--link {
     border: none;
     text-align: center;
     font-size: 16px;
-    margin: 25px;
     padding: 5px 25px;
     border-radius: 5px;
     text-decoration: none;

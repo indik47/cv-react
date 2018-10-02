@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom'
 
 import styles from './styles.css';
 import MyPhoto from '../../assets/myphoto.jpg';
+import gitHub from '../../icons/github-brands.svg';
 
 class Profile extends React.Component {
-    onClick = () => {
-        window.location.href = "contacts";
-    };
 
     render() {
         const { userData } = this.props;
@@ -22,20 +20,26 @@ class Profile extends React.Component {
                             <h1>{userData.name}</h1>
                             <div className={styles.social}>
                                 {/*//TODO Replace <a>`s with icons?*/}
-                                <div><a href={userData.github} target="_blank"> Github </a></div>
+                                <div>
+                                    <a href={userData.github} target="_blank">
+                                        <img src={gitHub} className={styles['social--icon']} alt="GitHub Page"/>
+                                    </a>
+                                </div>
                                 <div><a href={userData.linkedIn} target="_blank"> LinkedIn </a></div>
                                 <div><a href={userData.faceBook} target="_blank"> FaceBook </a></div>
                             </div>
                             <div className={styles.position}>{userData.position}</div>
                             <div className={styles.about}>"{userData["About me"]}"</div>
                             <div className={styles.contacts}>
-                                {/*TODO Use Link here instead of button?*/}
-                                <button onClick={this.onClick}>Contact me</button>
+                                <Link to="/contacts" className={styles[`contacts--link`]}>
+                                    Contact me
+                                </Link>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className={styles.outer}>
+                <div className={styles.outer}>.
                     <div className={`${styles.innerRow} ${styles.skills}`}>
                         {
                             userData["Technical skills"].map((item, index) => {
