@@ -1,6 +1,6 @@
 *{
     font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
+    box-sizing: content-box;
     --main-text-color: rgb(66, 66, 66);
     --secondary-text-color: rgb(103, 103, 103);
     --tetriary-text-color: rgb(255, 255, 255);
@@ -10,12 +10,13 @@
 }
 
 .outer{
-    padding-top: 6%;
+    padding-top: 81px;
+    padding-left: 85px;
 }
 
 .infoBlock{
     width: 100%;
-    margin-left: 50px;
+    padding-left: 15px;
     border-left: 4px solid  var(--main-color-hover);
 }
 
