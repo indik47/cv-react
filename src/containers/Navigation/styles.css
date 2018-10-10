@@ -18,10 +18,10 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--main-color);
-
     height: 100%;
     box-shadow: 0px 3px 1px var(--main-color) ;
 }
+
 .inner__avatar {
     width: 35px;
     height: 35px;
@@ -54,4 +54,22 @@
 .inner a:hover {
     background-color: var(--main-color-hover);
     color: #f5f5f5;
+}
+
+
+@media (max-width: 640px) {
+    .inner {
+        flex-wrap: wrap;
+    }
+
+    .inner a {
+        flex: 1 2 25%;
+        height: 61px;
+    }
+
+    .navWrapper {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
 }

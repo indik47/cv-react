@@ -1,53 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
 *{
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-    --projects-color: rgb(102, 178, 21);
+    --work-color: rgb(218, 130, 101);
     color: var(--main-text-color);
 }
 
 .outer{
-    padding-top: 6%;
+    padding-top: 81px;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
-.infoBlock{
-    width: 100%;
-    margin-left: 50px;
-    border-left: 4px solid  var(--projects-color);
-}
-
-h1 {
-    margin: 15px 25px;
-
-}
-
-.details {
-    width: 100%;
-    display: flex;
-    justify-content: start;
-}
-
-.detailsItem {
-    width: 30%;
-    margin: 15px 25px;
-}
-
-.additional{
-    width: 100%;
-    display: flex;
-    justify-content: start;
-}
-
-.additional button {
-    border: none;
-    text-align: center;
-    font-size: 16px;
-    margin: 25px;
-    padding: 5px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: var(--tetriary-text-color);
-    background-color: var(--projects-color);
-    transition: 0.1s ease-in;
-    cursor: pointer;
+@media (max-width: 640px) {
+    .outer{
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
 }

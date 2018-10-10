@@ -1,0 +1,44 @@
+.contact{
+    flex-direction: column;
+    width: 100%;
+    padding-left: 45px;
+    margin:40px 0;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.type {
+    display: inline;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: linear-gradient(15deg, rgba(39, 189, 169, 0.31), rgba(0, 125, 121, 0.26));
+}
+
+.payload {
+    display: inline;
+    margin-left: 25px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background: linear-gradient(15deg, rgba(113, 62, 168, 0.31), rgba(168, 72, 115, 0.26));
+}
+
+
+@media (max-width: 640px) {
+    .contact{
+        padding-left: 20px;
+        margin:30px 0;
+    }
+
+    .type {
+        font-size: 12px;
+    }
+
+    .payload {
+        font-size: 12px;
+
+    }
+}

@@ -1,0 +1,119 @@
+* {
+    --progress-color-red: rgba(205, 80, 91, 0.51);
+    --progress-color-orange: rgba(224, 132, 77, 0.6);
+    --progress-color-purple: rgba(116, 77, 218, 0.71);
+    --progress-color-blue: rgba(98, 193, 218, 0.8);
+    --progress-color-green: rgba(103, 206, 135, 0.91);
+}
+
+.item {
+    display: inline-block;
+    margin: 0 15px;
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.text {
+    margin: 0 15px;
+}
+
+.progressBackground{
+    width: 100%;
+    height: 15px;
+    background-color: var(--main-color);
+    border-radius: 15px;
+
+}
+.progressFill{
+    width: 100%;
+    height: 15px;
+    background-color: rgba(86, 37, 116, 0.5);
+    border-radius: 15px;
+}
+
+.progressFill:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    border-radius: 15px;
+    padding-top: 50%;
+    opacity: 0;
+    animation: color-me-in 2s infinite;
+}
+
+.red{
+    width: 50%;
+    background-color: var(--progress-color-red);
+}
+
+.red:after{
+    animation: color-me-in 2.1s infinite;
+}
+.orange{
+    width: 60%;
+    background-color: var(--progress-color-orange);
+}
+
+.orange:after{
+    animation: color-me-in 2.4s infinite;
+}
+
+.purple{
+    width: 70%;
+    background-color: var(--progress-color-purple);
+}
+
+.purple:after{
+    width: 80%;
+    animation: color-me-in 2.3s infinite;
+}
+
+.blue{
+    width: 90%;
+    background-color: var(--progress-color-blue);
+}
+
+.blue:after{
+    animation: color-me-in 2.5s infinite;
+}
+
+.green{
+    width: 100%;
+    background-color: var(--progress-color-green);
+}
+
+.green:after{
+    animation: color-me-in 2.8s infinite;
+}
+
+@keyframes color-me-in {
+    0% {
+        transform: translateX(-250px);
+        opacity: 1;
+        transition: 1s;
+    }
+    50% {
+        transform: translateX(-0px);
+        opacity: 0;
+        transition: 0.7s ease-out;
+    }
+    100% {
+        transform: translateX(-0px);
+        opacity: 0;
+        transition: 0.7s ease-out;
+    }
+}
+
+@media (max-width: 640px) {
+    .item {
+        display: inline-block;
+        margin: 0 15px;
+        width: 150px;
+        height: 35px;
+        font-size: 14px;
+        overflow: hidden;
+    }
+
+}

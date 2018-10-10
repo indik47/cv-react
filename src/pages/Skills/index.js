@@ -1,28 +1,21 @@
 import React from 'react'
 import styles from './styles.css'
+import SkillList from "../../components/SkillList";
 
 class Skills extends React.Component {
 
-    render() {
-        
-        const {skills} = this.props;
+  render() {
+    const {main, additional} = this.props.skills;
 
-        return (
-            <div className={styles.outer}>
-                {skills.map( (item, index) => {
-                        return (
-                            <div className={styles.skills__item}>
-                                <div className={styles.skills__text} key={index}> {item} </div>
-                                <div className={styles.skills__progressBackground}>
-                                    {/*//TODO generate additional color classes eg: ${styles.blue}, ${styles.red}, ${styles.orange} etc. */}
-                                    <div className={`${styles.skills__progressFill} ${styles.blue}`}/>
-                                </div>
-                            </div>
-                        )
-                    })}
-            </div>
-        )
-    }
+    return (
+      <div className={styles.outer}>
+        <div className={styles[`skills__inner`]}>
+          <SkillList skills={main} className='main__skills'/>
+          <SkillList skills={additional} className='additional__skills'/>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default Skills

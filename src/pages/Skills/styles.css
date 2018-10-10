@@ -1,86 +1,18 @@
-* {
-    --progress-color-orange: rgb(224, 132, 77);
-    --progress-color-red: rgb(205, 80, 91);
-    --progress-color-green: rgb(103, 206, 135);
-    --progress-color-blue: rgb(98, 193, 218);
-    --progress-color-purple: rgb(116, 77, 218);
-}
-
-
-.outer{
-    padding-top: 6%;
-}
-
-.skills {
+.outer {
+    padding-top: 81px;
+    padding-left: 85px;
+    padding-right: 85px;
     display: flex;
-    flex-wrap: wrap;
 }
 
-.skills__item {
-    margin: 20px 35px;
-    width: 200px;
-    font-size: 16px;
-    overflow: hidden;
-}
-
-.skills__text {
-    margin: 5px 25px;
-}
-
-.skills__progressBackground{
+.skills__inner {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    height: 15px;
-    background-color: var(--main-color);
-    border-radius: 15px;
 }
 
-.skills__progressFill{
-    width: 70%;
-    height: 15px;
-    background-color: var(--progress-color-orange);
-    border-radius: 15px;
-
-}
-
-.skills__progressFill.orange{
-    background-color: var(--progress-color-orange);
-}
-
-.skills__progressFill.red{
-    background-color: var(--progress-color-red);
-}
-
-.skills__progressFill.green{
-    background-color: var(--progress-color-green);
-}
-
-.skills__progressFill.blue{
-    background-color: var(--progress-color-blue);
-}
-
-.skills__progressFill.purple{
-    background-color: var(--progress-color-purple);
-}
-
-.skills__progressFill:after {
-    content: "";
-    background: #f1f1f1;
-    display: block;
-    border-radius: 15px;
-    padding-top: 11%;
-    opacity: 0;
-    animation: color-me-in 1s;
-}
-
-@keyframes color-me-in {
-    0% {
-        transform: translateX(-150px);
-        opacity: 1;
-        transition: 1s;
-    }
-    100% {
-        transform: translateX(-0px);
-        opacity: 0;
-        transition: 0.7s ease-out;
+@media (max-width: 640px) {
+    .outer{
+        padding: 20px;
     }
 }

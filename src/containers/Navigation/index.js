@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styles from './styles.css'
 import { Link } from 'react-router-dom'
-import MyPhoto from '../../assets/myphoto.jpg';
+import MyPhoto from '../../assets/myphoto02.png';
 // import CSSModules from 'react-css-modules';
 
 class Navigation extends Component {

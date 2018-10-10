@@ -1,63 +1,189 @@
 {
-    "name": "Max Bolotnyi",
-    "position": "Front end developer (junior)",
-    "contacts": [],
-     "linkedIn": "https://www.linkedin.com/in/max-bolotnyi",
-     "faceBook": "https://www.facebook.com/max100796",
-     "github": "https://github.com/MaxBolotnyi",
-    
-    "About me": "I sparked my interest in programming as a hobby a year ago while working in IT industry as a 3d artist. Since that I have found myself in love with coding and I decided to take it seriously and get a job.    Today I`m studying front-end fulltime. I`d like to get a junior position, I love working in a team. Real projects would boost my learning curve and I`d do my best at the company.   I have ~0.5 year of experience with JS and front-end tech (and I did Java and C++ courses prior to that). I am good at core JS + html/CSS  + currently learning React.",
-    "Technical skills": [
-        "HTML",
-        "CSS, SASS + gulp/grunt",
-        "Bootstrap",
-        "strong JS (ES5 and ES6)",
-        "React.js",
-        "git, github/gitlab",
-        "JIRA + confluence",
-        "WebWorkers, WebSockets"
-  ],
-    "languages": [
-        {"english": "Advanced / C1 "},
-        {"russian": "Native "},
-        {"ukrainian": "Native"},
-        {"deutsch": "Pre-Intermidiate"}
-    ],
-    "jobs": [
-      {
-          "period":"march `18 .. june `18",
-          "name": "Wargaming/Persha Studia",
-          "href": "https://www.linkedin.com/company/wargaming-net/",
-          "position":"3d artist"
-      },
-      {
-        "period":"march `12 .. march `18",
-        "name": "Samsung Ukraine R&D Center",
-        "href": "https://www.samsung.com/ua/aboutsamsung/careers/srk/",
-        "position":"3d artist"
+  "name": "Denys Oligov",
+  "position": "Front end developer",
+  "contacts": [
+    {
+      "type":"location",
+      "payload":"Kiev"
     },
     {
-        "period":"nov `10 .. dec `11",
-        "name": "LLC Maxwellogic",
-        "href": null,
-        "position":"3d artist"
+      "type":"skype",
+      "payload":"indik47"
+    },
+    {
+      "type":"email",
+      "payload":"indik47@gmail.com"
+    },
+    {
+      "type":"linkedIn",
+      "payload":"https://goo.gl/c1mUYx"
+    },
+    {
+      "type":"github",
+      "payload":"https://github.com/indik47"
+    },
+    {
+      "type":"gitlab - school projects",
+      "payload":"https://goo.gl/4b83YA"
     }
   ],
-    "Education":[
-        {
-            "dates": "2013 - 2017",
-            "university":"ZNTU Zaporizhzhya National Technical University - Bachelour degree",
-            "specialization":"Engineer of Telecommunicatons" 
-        },
-        {
-            "dates": "2017 - 2019",
-            "university":"ZNTU Zaporizhzhya National Technical University - Master degree",
-            "specialization":"Engineer of Telecommunicatons" 
-        }
-    ] ,
-     "Courses":[
-        "2018 .. present - DITS school full stack course",
-        "online learning at Udemy, lynda.com etc."
+  "linkedIn": "https://www.linkedin.com/in/denysoligov/",
+  "faceBook": "https://www.facebook.com/denys.oligov",
+  "github": "https://github.com/indik47",
+  "About me": "I sparked my interest in programming as a hobby working in IT industry as a 3d artist. Since that, I have found myself in love with coding and I decided to take it seriously and get a job. Today I`m studying full-stack development (JS+Python stack) at DITS school. I have ~0.5 years of experience with JS and front-end tech (and I did Java and C++ courses prior to that). I am good at core JS, html/CSS and currently learning React+Redux.",
+  "Technical skills": {
+    "main": [
+      {
+        "skill": "HTML",
+        "level": "70"
+      },
+      {
+        "skill": "CSS, SASS",
+        "level": "80"
+      },
+      {
+        "skill": "JS (ES5 and ES6)",
+        "level": "95"
+      },
+      {
+        "skill": "React.js",
+        "level": "90"
+      },
+      {
+        "skill": "Redux",
+        "level": "60"
+      }
+    ],
+    "additional": [
+      {
+        "skill": "gulp/grunt",
+        "level": "60"
+      },
+      {
+        "skill": "Bootstrap",
+        "level": "50"
+      },
+      {
+        "skill": "git, github/gitlab",
+        "level": "70"
+      },
+      {
+        "skill": "JIRA + confluence",
+        "level": "95"
+      },
+      {
+        "skill": "WebWorkers",
+        "level": "50"
+      },
+      {
+        "skill": "WebSockets",
+        "level": "60"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "name": "English",
+      "level": "Advanced / C1 "
+    },
+    {
+      "name": "Russian",
+      "level": "Native"
+    },
+    {
+      "name": "Ukrainian",
+      "level": "Native"
+    }
   ],
-     "Background": "I`m happily married and have a son."
+  "jobs": [
+    {
+      "period": "march `18 .. june `18",
+      "name": "Wargaming/Persha Studia",
+      "href": "https://www.linkedin.com/company/wargaming-net/",
+      "position": "3d artist",
+      "tags": [
+        "3d modelling",
+        "level art creation"
+      ]
+    },
+    {
+      "period": "march `12 .. march `18",
+      "name": "Samsung Ukraine R&D Center",
+      "href": "https://www.samsung.com/ua/aboutsamsung/careers/srk/",
+      "position": "3d artist",
+      "tags": [
+        "R&D projects",
+        "VR",
+        "AR",
+        "mobile"
+      ]
+    },
+    {
+      "period": "nov `10 .. dec `11",
+      "name": "LLC Maxwellogic",
+      "href": null,
+      "position": "3d artist",
+      "tags": [
+        "online game",
+        "weapon artist"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "dates": "2003 - 2009",
+      "name": "NTUU Kiev Polytechnic Univercity",
+      "details": "specialist",
+      "tags": [
+        "good times",
+        "nostalgia"
+      ]
+    },
+    {
+      "dates": "2018 - ongoing",
+      "name": "DITS school full stack course",
+      "url": "https://deutsche-it-schule.com.ua/",
+      "tags": [
+        "HTML+CSS",
+        "JS",
+        "React"
+      ]
+    },
+    {
+      "dates": "2018",
+      "name": "Udemy JS course",
+      "url": "https://www.udemy.com/the-complete-javascript-course/"
+    },
+    {
+      "dates": "2018",
+      "name": "Lynda.com Foundations of Programming - Data Structures",
+      "url": "https://www.lynda.com/Software-Development-tutorials/Programming-Foundations-Data-Structures/149042-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3aFoundations+of+Programming+Data+Structures+%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Star Wars portal",
+      "details": "test task",
+      "hostedName": "hosted",
+      "hostedHref": "https://indik47.github.io/sw-api-test-task/",
+      "repoName": "source code",
+      "repoHref": "https://www.linkedin.com/company/wargaming-net/",
+      "tags": [
+        "react.js",
+        "first react try"
+      ]
+    },
+    {
+      "name": "ToDo list with indexedDB",
+      "hostedName": "hosted",
+      "hostedHref": "https://indik47.github.io/sw-api-test-task/",
+      "repoName": "source code",
+      "repoHref": "https://www.linkedin.com/company/wargaming-net/",
+      "tags": [
+        "webworkers",
+        "indexedDB"
+      ]
+    }
+  ],
+  "Background": "I`m happily married and have a son."
 }

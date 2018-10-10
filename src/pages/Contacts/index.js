@@ -1,17 +1,19 @@
 import React from 'react'
 import styles from './styles.css'
-
+import Contact from '../../components/Contact'
 
 class Contacts extends React.Component {
-    render() {
-        return (
-            <div className={styles.outer}>
+  render() {
+    const {contacts} = this.props;
 
-                <div>Contacts</div>
-
-            </div>
-        )
-    }
+    return (
+      <div className={styles.outer}>
+        {contacts.map(contact => {
+          return (<Contact contact={contact}/>)
+        })}
+      </div>
+    )
+  }
 }
 
 export default Contacts
